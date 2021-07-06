@@ -1,0 +1,155 @@
+h1 {
+  font-family: 'Antonio', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5rem;
+  line-height: 6.5rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: 'Antonio', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42.5rem;
+  line-height: 3.25rem;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: 'Spartan', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 1.563rem;
+  letter-spacing: 2.57143px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h4 {
+  font-family: 'Spartan', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.688rem;
+  line-height: 1.563rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+p {
+  font-family: 'Spartan', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.563rem;
+  color: #ffffff;
+}
+
+.bg-white {
+  background-color: #ffffff;
+  color: #070724;
+}
+.bg-black {
+  background-color: #070724;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.bg-dark-grey {
+  background-color: #38384f;
+}
+.bg-light-grey {
+  background-color: #838391;
+}
+.bg-Mercury {
+  background-color: #419ebb;
+}
+.bg-Venus {
+  background-color: #eda249;
+}
+.bg-Earth {
+  background-color: #6d2ed5;
+}
+.bg-Mars {
+  background-color: #d14c32;
+}
+.bg-Jupiter {
+  background-color: #d83a34;
+}
+.bg-Saturn {
+  background-color: #cd5120;
+}
+.bg-Uranus {
+  background-color: #1ec1a2;
+}
+.bg-Neptune {
+  background-color: #2d68f0;
+}
+
+.btn {
+  width: 350px;
+  height: 48px;
+  padding: 12px 28px;
+  display: flex;
+  align-items: center;
+  font-family: 'Spartan', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 2.57143px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn span {
+  margin-right: 25px;
+  opacity: 0.5;
+}
+
+.btn.bg-black:hover {
+  background: rgba(216, 216, 216, 0.2);
+  mix-blend-mode: normal;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home {
+  height: 100vh;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+main {
+  max-height: calc(100vh - 85px);
+  height: 100%;
+  padding-right: 165px;
+  padding-left: 165px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.home .heading {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 165px;
+}
+
+.main-heading {
+  padding-bottom: 50px;
+  font-size: 120px;
+  line-height: 120px;
+}
+.heading p {
+  font-size: 25px;
+  line-height: 30px;
+}

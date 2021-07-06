@@ -1,0 +1,173 @@
+.planet-card {
+  height: 100%;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  height: 754px;
+}
+
+.text-content {
+  width: 350px;
+  text-align: left;
+  padding-top: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+span {
+  opacity: 0.5;
+}
+span a {
+  color: #fff;
+  padding-left: 8px;
+}
+span a img {
+  padding-left: 8px;
+  padding-top: 2px;
+}
+.planet-picture {
+  width: 666px;
+  height: 666px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 242px;
+}
+
+.info-accordion {
+  height: 176px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.planet-picture div {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* planet pictures */
+.planet-Mercury {
+  background-image: url('../assets/planet-mercury.svg');
+  width: 290px;
+  height: 290px;
+}
+.planet-Venus {
+  background-image: url('../assets/planet-venus.svg');
+  width: 400px;
+  height: 400px;
+}
+.planet-Earth {
+  background-image: url('../assets/planet-earth.svg');
+  width: 450px;
+  height: 450px;
+}
+.planet-Mars {
+  background-image: url('../assets/planet-mars.svg');
+  width: 336px;
+  height: 336px;
+}
+.planet-Jupiter {
+  background-image: url('../assets/planet-jupiter.svg');
+  width: 582px;
+  height: 582px;
+}
+.planet-Saturn {
+  background-image: url('../assets/planet-saturn.svg');
+  width: 666px;
+  height: 666px;
+}
+.planet-Uranus {
+  background-image: url('../assets/planet-uranus.svg');
+  width: 458px;
+  height: 458px;
+}
+.planet-Neptune {
+  background-image: url('../assets/planet-neptune.svg');
+  width: 450px;
+  height: 450px;
+}
+
+.planet-Mercury-inner {
+  background-image: url('../assets/planet-mercury.svg');
+  width: 290px;
+  height: 290px;
+}
+.planet-Venus-inner {
+  background-image: url('../assets/planet-venus.svg');
+  width: 400px;
+  height: 400px;
+}
+.planet-Earth-inner {
+  background-image: url('../assets/planet-earth.svg');
+  width: 450px;
+  height: 450px;
+}
+.planet-Mars-inner {
+  background-image: url('../assets/planet-mars.svg');
+  width: 336px;
+  height: 336px;
+}
+.planet-Jupiter-inner {
+  background-image: url('../assets/planet-jupiter.svg');
+  width: 582px;
+  height: 582px;
+}
+.planet-Saturn-inner {
+  background-image: url('../assets/planet-saturn.svg');
+  width: 666px;
+  height: 666px;
+}
+.planet-Uranus-inner {
+  background-image: url('../assets/planet-uranus.svg');
+  width: 458px;
+  height: 458px;
+}
+.planet-Neptune-inner {
+  background-image: url('../assets/planet-neptune.svg');
+  width: 450px;
+  height: 450px;
+}
+
+.geology-Mercury {
+  background-image: url('../assets/geology-mercury.png');
+  width: 163px;
+  height: 193px;
+}
+.geology-Venus {
+  background-image: url('../assets/geology-venus.png');
+  width: 163px;
+  height: 193px;
+}
+.geology-Earth {
+  background-image: url('../assets/geology-earth.png');
+  width: 163px;
+  height: 193px;
+}
+.geology-Mars {
+  background-image: url('../assets/geology-mars.png');
+  width: 163px;
+  height: 193px;
+}
+.geology-Jupiter {
+  background-image: url('../assets/geology-jupiter.png');
+  width: 163px;
+  height: 193px;
+}
+.geology-Saturn {
+  background-image: url('../assets/geology-saturn.png');
+  width: 163px;
+  height: 193px;
+}
+.geology-Uranus {
+  background-image: url('../assets/geology-uranus.png');
+  width: 163px;
+  height: 193px;
+}
+.geology-Neptune {
+  background-image: url('../assets/geology-neptune.png');
+  width: 163px;
+  height: 193px;
+}
